@@ -1,3 +1,3 @@
-module Home1/cache-memory
+module github.com/AntonSliusar/InMemoryCache
 
 go 1.21.6
