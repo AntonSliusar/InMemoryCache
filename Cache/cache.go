@@ -9,7 +9,7 @@ func (c *Cache) Set(key string, value any) {
 }
 
 func (c *Cache) Get(key string) any {
-	value, _ := c.items[key]
+	value := c.items[key]
 	return value
 }
 
